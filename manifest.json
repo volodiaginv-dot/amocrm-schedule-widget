@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "version": "1.1.0",
+    "interface_version": 2,
+    "installation": true,
+    "locale": [
+      "ru",
+      "en"
+    ],
+    "name": "widget.name",
+    "short_description": "widget.short_description",
+    "description": "widget.description",
+    "support": {
+      "email": "support@example.com"
+    }
+  },
+  "locations": [
+    "settings",
+    "dashboard"
+  ],
+  "settings": {
+    "PIPELINE_IDS": {
+      "name": "settings.PIPELINE_IDS",
+      "type": "text",
+      "required": true
+    },
+    "FIELD_ID_PROCESS": {
+      "name": "settings.FIELD_ID_PROCESS",
+      "type": "text",
+      "required": true
+    },
+    "FIELD_ID_REPEAT": {
+      "name": "settings.FIELD_ID_REPEAT",
+      "type": "text",
+      "required": true
+    },
+    "FIELD_ID_CITY": {
+      "name": "settings.FIELD_ID_CITY",
+      "type": "text",
+      "required": true
+    },
+    "DEFAULT_RANGE": {
+      "name": "settings.DEFAULT_RANGE",
+      "type": "text",
+      "required": false
+    }
+  }
+}
